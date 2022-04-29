@@ -37,8 +37,10 @@
   },
   "devDependencies": {
     "@swc/core": "^1.2.135",
+    "@types/estree": "^0.0.51",
     "@types/node": "^17.0.30",
     "rollup": "^2.66.1",
+    "rollup-plugin-swc": "link:",
     "typescript": "^4.5.5"
   },
   "peerDependencies": {
